@@ -67,7 +67,7 @@ Task::Task(Layer::ListUPtr &&layers)
 	:m_layers(std::move(layers))
 {
 	initPathsFromLayers();
-	initStackFromSortedPaths();
+	//initStackFromSortedPaths();
 }
 
 int Task::pathCount() const
